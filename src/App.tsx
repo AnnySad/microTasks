@@ -9,6 +9,7 @@ import {MethodFilter} from "./methods/methodFilter";
 import FullButtonInput from "./components/FullButtonInput";
 import Input from "./components/Input";
 import {Button} from "./components/Button";
+import AppArray from "./array/AppArray";
 
 function App() {
     let [title, setTitle] = useState('')
@@ -79,6 +80,9 @@ function App() {
                         )
                     })
                     }
+                </>
+                <>
+                    <AppArray/>
                 </>
             </div>
         </div>
